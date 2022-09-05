@@ -307,6 +307,11 @@ myNewFun();
 myNewFun();
 ```
 # link to surrounding data [[ scope ]]
+<style scoped> 
+  {
+    font-size: 1.5rem;
+  }
+</style>
 * The function `outer` is stored in the global memory. 
 * outer has backpack [[ scope ]] which contains the variable counter.
 * [[scope]] is a hidden property which is private and cannot be accessed directly.à
